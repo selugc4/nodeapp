@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/app.js",
   "scripts": {
-    "start": "node src/main",
+    "start": "node src/main.js",
     "test": "jest",
     "test-jenkins": "jest --reporters=default --reporters=jest-junit",
     "coverage-jenkins": "jest --reporters=default --reporters=jest-junit --coverage --coverageReporters=text --coverageReporters=html --coverageDirectory=./coverage/",
